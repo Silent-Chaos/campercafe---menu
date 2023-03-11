@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css"></link>
+    <title>Survey Form</title>
+    <meta charset="utf=8">
+    </head>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Gathering individual opinion throgh this survey</p> 
+    <form id="survey-form" action="somewhere">
+      <fieldset>
+<label id="name-label">Name : <input type="text" id="name" placeholder="Your name" name="name" required></label>
+<label id="email-label">E-mail : <input type="email" id="email" placeholder="Your email" name="email" required minlenght="30"></label>
+<label id="number-label"> age  : <input type="number" id="number" name="agenumber" required min="13" max="80" placeholder="years"></label>
+
+</fieldset>
+<fieldset>
+
+Gender: <select id="dropdown">Gender:
+<option value=""></option>
+<option value="male">male</option>
+<option value="female">Female</option>
+<option value="others">Others</option>
+</select>
+
+<label class="radio-btn"> more then 1 lakh<input type="radio" value="1lakh" name="income" /></label>
+<label class="radio-btn"> less then 1 lakh<input type="radio" value="1lakh" name="income" /></label>
+<label class="radio-btn"> less the 50K<input type="radio" value="1lakh" name="income" /></label>
+
+<label>Citizen<input type="checkbox" id="citizen" value="citizen"/></label>
+<label>Not a citizen<input type="checkbox" id="notcitizen" value="notcitizen"/></label>
+
+<label>How is life : <br><textarea rows="3" cols="30"></textarea></label>
+
+<hr>
+<input type="submit" id="submit" >
+
+ </fieldset>
+ </form>
+     </html>

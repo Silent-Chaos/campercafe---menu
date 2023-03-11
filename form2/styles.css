@@ -1,0 +1,39 @@
+body{
+    text-align:center;
+    background-color:orange;
+  }
+  fieldset,hr
+  {
+    border:none;
+    border-top:2px solid blue;
+  
+  }
+  label{
+      
+  
+    display:block;
+    margin:6px auto;
+  }
+  input{
+        border:none;
+  padding:3px;
+  border-radius:8px;
+    height:2em;
+    background-color:yellow;
+  }
+  input[type="radio"],input[type="checkbox"]{
+  background-color:yellow;
+    width: unset;
+  
+      margin: 0 0.5em 0 6.9;
+      vertical-align: middle;
+  }
+  form{
+      min-width:300px;
+      max-width:400px;
+      margin:0 auto;
+  
+  }
+  textarea{
+    background-color:yellow;
+  }
